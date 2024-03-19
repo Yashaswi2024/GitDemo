@@ -11,10 +11,18 @@ pageextension 50100 CustomerListExt extends "Customer List"
     trigger OnOpenPage();
     var
         a: Integer;
+        b: Integer;
     begin
         Message('My name is Yashaswi K.S :)');
         Message('I Live in Mangalore');
         Message('Im working as a corporate trainer');
+        Printhello();
+    end;
 
+    local procedure Printhello()
+    var
+        myInt: Integer;
+    begin
+        Message('Printing Hello');
     end;
 }
